@@ -1,3 +1,9 @@
+/* CSS RESETS */
+* {
+  margin: 0;
+  padding: 0;
+}
+
 /* Nav Bar Styling */
 
 .topnav {
