@@ -9,6 +9,12 @@
 .topnav {
   display: flex;
   justify-content: space-evenly;
+  align-items: center;
   background-color: #ffc0cb;
   overflow: hidden;
+  height: 4rem;
+}
+
+.topnav a {
+  text-decoration: none;
 }
