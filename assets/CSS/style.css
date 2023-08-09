@@ -1,0 +1,8 @@
+/* Nav Bar Styling */
+
+.topnav {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #ffc0cb;
+  overflow: hidden;
+}
