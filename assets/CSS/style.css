@@ -26,3 +26,7 @@
 .topnav a:hover {
   background: #ff9faf;
 }
+
+.topnav a.active {
+  background: #ff9faf;
+}
