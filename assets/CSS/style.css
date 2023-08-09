@@ -9,6 +9,24 @@
 .topnav {
   display: flex;
   justify-content: space-evenly;
+
   background-color: #ffc0cb;
   overflow: hidden;
+  height: 4rem;
+}
+
+.topnav a {
+  display: flex;
+  text-decoration: none;
+  height: 100%;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.topnav a:hover {
+  background: #ff9faf;
+}
+
+.topnav a.active {
+  background: #ff9faf;
 }
