@@ -4,13 +4,19 @@
   padding: 0;
 }
 
+/* MAIN STYLING */
+
+:root {
+  --main-color: #ffc0cb;
+  --secondary-color: #ff9faf;
+}
+
 /* Nav Bar Styling */
 
 .topnav {
   display: flex;
-  justify-content: space-evenly;
-
-  background-color: #ffc0cb;
+  justify-content: space-between;
+  background: var(--main-color);
   overflow: hidden;
   height: 4rem;
 }
@@ -24,9 +30,9 @@
 }
 
 .topnav a:hover {
-  background: #ff9faf;
+  background: var(--secondary-color);
 }
 
 .topnav a.active {
-  background: #ff9faf;
+  background: var(--secondary-color);
 }
