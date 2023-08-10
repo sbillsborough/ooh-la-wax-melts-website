@@ -4,11 +4,12 @@
   padding: 0;
 }
 
-/* MAIN STYLING */
+/* UNIVERSAL STYLING */
 
 :root {
   --main-color: #ffc0cb;
   --secondary-color: #ff9faf;
+  --borders: #e4cd82;
 }
 
 /* Nav Bar Styling */
@@ -19,6 +20,7 @@
   background: var(--main-color);
   overflow: hidden;
   height: 4rem;
+  border-bottom: 3px solid var(--borders);
 }
 
 .topnav a {
@@ -35,4 +37,11 @@
 
 .topnav a.active {
   background: var(--secondary-color);
+}
+
+/* Main Section Styling */
+
+section.main-container {
+  background: var(--main-color);
+  height: 100vw;
 }
