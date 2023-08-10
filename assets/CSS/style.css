@@ -7,7 +7,7 @@
 /* UNIVERSAL STYLING */
 
 :root {
-  --main-color: #ffc0cb;
+  --main-color: #ffd3da;
   --secondary-color: #ff9faf;
   --borders: #e4cd82;
 }
@@ -44,4 +44,19 @@
 section.main-container {
   background: var(--main-color);
   height: 100vw;
+  text-align: center;
+}
+
+div.main-logo {
+  background-image: url("/assets/images/logo.jpg");
+  background-size: 25rem 20rem;
+  background-repeat: no-repeat;
+  width: 25rem;
+  height: 20rem;
+  margin: 0 100px;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 413px) {
 }
